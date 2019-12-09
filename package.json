@@ -1,0 +1,37 @@
+{
+  "name": "lottie-util",
+  "version": "1.0.0",
+  "description": "lottie util",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json",
+    "test": "egg-bin test --typescript",
+    "test-travis": "egg-bin cov --typescript"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.2",
+    "egg-bin": "^4.9.0",
+    "ts-loader": "^5.3.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lottie-Lint/lottie-util.git"
+  },
+  "keywords": [
+    "lottie",
+    "util"
+  ],
+  "author": "nightink",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lottie-Lint/lottie-util/issues"
+  },
+  "homepage": "https://github.com/Lottie-Lint/lottie-util#readme"
+}
